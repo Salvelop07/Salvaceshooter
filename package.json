@@ -1,5 +1,5 @@
 {
-  "name": "js13k-spaceshooter",
+  "name": "Salvaceshooter",
   "version": "1.0.0",
   "description": "",
   "private": true,
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vintharas/js13k-spaceshooter.git"
+    "url": "git+https://github.com/Salvelop07/Salvaceshooter.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vintharas/js13k-spaceshooter/issues"
+    "url": "https://github.com/Salvelop07/Salvaceshooter/issues"
   },
-  "homepage": "https://github.com/Vintharas/js13k-spaceshooter#readme",
+  "homepage": "https://github.com/Salvelop07/Salvaceshooter#readme",
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.19",
     "closure-webpack-plugin": "^1.0.1",

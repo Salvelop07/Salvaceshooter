@@ -1,5 +1,6 @@
-# Earth That Was
+# Salvaceshooter
 
+Salvaceshooter is an action-packed space game featuring thrilling mechanics like zooming, strategic ship actions, dynamic map generation, and interactive quests, all enhanced by asteroids, resource management, and unique faction gameplay! 🚀✨
 A game under 13Kb for the [js13kgames.com](js13kgames.com) competition.
 
 ## Setup

@@ -10,11 +10,11 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 module.exports = {
   entry: {
     //kontra: "./src/loadkontra.js",
-    main: "./src/index.ts"
+    main: "./src/index.ts",
   },
   output: {
     filename: "[name].bundle.js",
-    path: path.resolve(__dirname, "dist")
+    path: path.resolve(__dirname, "dist"),
   },
   module: {
     rules: [
@@ -43,7 +43,7 @@ module.exports = {
       {
         test: /\.tsx?$/,
         use: "ts-loader",
-        exclude: /node_modules/
+        exclude: /node_modules/,
       },
 
       // loading kontra as a global script
@@ -67,27 +67,27 @@ module.exports = {
           {
             loader: "file-loader",
             options: {
-              name: "[name].[ext]"
-            }
-          }
-        ]
-      }
-    ]
+              name: "[name].[ext]",
+            },
+          },
+        ],
+      },
+    ],
   },
   resolve: {
-    extensions: [".tsx", ".ts", ".js", ".css"]
+    extensions: [".tsx", ".ts", ".js", ".css"],
   },
   plugins: [
     new CleanWebpackPlugin(["dist"]),
     new HtmlWebpackPlugin({
-      title: "js13k-spaceshooter",
+      title: "Salvaceshooter",
       template: "src/index.html",
       minify: {
         collapseWhitespace: true,
         minifyCSS: true,
-        removeComments: true
-      }
-    })
+        removeComments: true,
+      },
+    }),
     //CopyWebpackPlugin([{ from: "libs/kontra.min.js", to: "kontra.min.js" }])
-  ]
+  ],
 };
